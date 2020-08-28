@@ -1,0 +1,63 @@
+body {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    background-image: url('../../pics/bg12.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input {
+    color: white;
+}
+
+.col-12 {
+    color: black;
+    max-width: 700px;
+    font-size: 30px;
+}
+
+.container-sm {
+    width: 700px;
+    padding: 10px;
+}
+
+#picShow {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+}
+
+#edit {
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 25%;
+    right: 44%;
+}
+
+#image:hover #picShow {
+    opacity: 0.3;
+    transition: ease all 1s;
+}
+
+#image:hover #edit {
+    opacity: 1;
+    cursor: pointer;
+    transition: ease all 1s;
+}
+
+#wait {
+    width: 100px;
+    height: 100px;
+    background-image: url('../../pics/786.gif');
+    background-size: contain;
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 10;
+}

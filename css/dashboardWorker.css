@@ -1,0 +1,114 @@
+body {
+    font-size: 24px;
+    background-image: url('../../pics/bg.png');
+    background-size: cover;
+}
+
+h4 {
+    color: white;
+    text-decoration: none;
+}
+
+btn {
+    margin: 2px 0px;
+}
+
+option {
+    font-weight: bold;
+}
+
+optgroup option {
+    font-weight: 400;
+}
+
+#top .fa {
+    font-size: 1.4em;
+    margin: 0px;
+    margin-right: 7px;
+}
+
+.navbar-brand img {
+    margin: -10px;
+    width: inherit;
+    height: 75px;
+}
+
+#wait {
+    width: 200px;
+    height: 200px;
+    background-image: url(../../pics/786.gif);
+    background-size: contain;
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 10;
+}
+
+#ratings {
+    background-color: darkslategray;
+    height: 350px;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+#ratings img {
+    width: 70%;
+    height: 65%;
+}
+
+#ratings:hover {
+    background-color: slategrey;
+    width: 20rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    transition: ease all 0.5s;
+}
+
+#findWork {
+    background-color: darkslategray;
+    width: 18rem;
+    height: 350px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#findWork img {
+    height: 75%;
+    width: 80%;
+}
+
+#findWork:hover {
+    background-color: slategrey;
+    width: 20rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    transition: ease all 0.5s;
+}
+
+#footer {
+    color: white;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.fa {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.fa:hover {
+    font-size: 30px;
+    opacity: 0.7;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.modal-body {
+    background-color: teal;
+    color: white;
+    font-size: 22px;
+}

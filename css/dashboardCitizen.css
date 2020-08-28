@@ -1,0 +1,178 @@
+body {
+    font-size: 24px;
+    background-image: url('../../pics/bg.png');
+    background-size: cover;
+
+    color: white;
+}
+
+xsq x h4 {
+    text-decoration: none;
+}
+
+btn {
+    margin: 2px 0px;
+}
+
+option {
+    font-weight: bold;
+}
+
+optgroup option {
+    font-weight: 400;
+}
+
+#wait {
+    width: 200px;
+    height: 200px;
+    background-image: url(../../pics/786.gif);
+    background-size: contain;
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 10;
+}
+
+#top .fa {
+    font-size: 1.4em;
+    margin: 0px;
+    margin-right: 7px;
+}
+
+.navbar-brand img {
+    margin: -10px;
+    width: 90px;
+    height: 70px;
+}
+
+#signupEye {
+    color: black;
+    margin: -40px 0px 0px 430px;
+}
+
+#loginEye {
+    color: black;
+    margin: -40px 0px 0px 430px;
+}
+
+.modal-content {
+    background-color: darkslategray;
+    font-size: 24px;
+}
+
+.modal-body {
+    background-color: teal;
+}
+
+#postReq {
+    background-color: darkslategray;
+    width: 18rem;
+    height: 350px;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+#postReq img {
+    height: 55%;
+    width: 60%;
+}
+
+#postReq:hover {
+    background-color: slategrey;
+    width: 20rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    transition: ease all 0.5s;
+}
+
+#searchWorker {
+    background-color: darkslategray;
+    width: 18rem;
+    height: 350px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#searchWorker img {
+    width: 50%;
+}
+
+#searchWorker:hover {
+    background-color: slategrey;
+    width: 20rem;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    transition: ease all 0.5s;
+}
+
+#reqManager {
+    background-color: darkslategrey;
+    margin-top: 30px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+#reqManager:hover {
+    background-color: slategrey;
+    box-shadow: 5px 5px 10px;
+    transition: ease all 0.5s;
+}
+
+#rateWorker {
+    background-color: darkslategrey;
+    margin-top: 30px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+#rateWorker img {
+    width: 50%;
+}
+
+#requestImg {
+    width: 55%;
+    height: 55%;
+    background-image: url('../../pics/maintenance.png');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 30px 8px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.footer-bottom {
+    background-color: black;
+    font-weight: 500;
+    color: teal;
+}
+
+.footer-bottom:hover {
+    opacity: 0.8;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.fa {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.fa:hover {
+    font-size: 30px;
+    opacity: 0.7;
+    margin: 10px;
+    cursor: pointer;
+}

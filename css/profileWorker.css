@@ -1,0 +1,96 @@
+body {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.col-12 {
+    margin-top: 100px;
+    width: 800px;
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+
+}
+
+.container-sm {
+    border: 2px solid black;
+    background-color: teal;
+    width: 800px;
+    padding: 10px;
+}
+
+#picShow {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+}
+
+#edit {
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 25%;
+    right: 30%;
+}
+
+#profilePic:hover #picShow {
+    opacity: 0.3;
+    transition: ease all 1s;
+}
+
+#profilePic:hover #edit {
+    opacity: 1;
+    cursor: pointer;
+    transition: ease all 1s;
+}
+
+#cardShow {
+    width: 220px;
+    height: 180px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+
+#cardedit {
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 25%;
+    right: 30%;
+}
+
+#aadharPic:hover #cardShow {
+    opacity: 0.3;
+    transition: ease all 1s;
+}
+
+#aadharPic:hover #cardedit {
+    opacity: 1;
+    cursor: pointer;
+    transition: ease all 1s;
+}
+
+option {
+    font-weight: bold;
+}
+
+optgroup option {
+    font-weight: 400;
+}
+
+#wait {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../pics/786.gif');
+    background-size: contain;
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 10;
+}
